@@ -1,20 +1,17 @@
-/*===================================*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 /*CSS reset*/
-/*================================*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
 	*{margin: 0; 
 	 padding: 0; 
 	 box-sizing: border-box;
-	 /*font-family: 'Pacifico', cursive;*/
 	 font-family: 'Shadows Into Light', cursive;
 	}
 
 
-/*===================================*/
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 /*definições gerais*/
-/*=================================*/
-
-
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
 	.col-1 { width: 8.33%;}
 	.col-2 {width: 16.66%;}
@@ -48,6 +45,7 @@
 
 	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 	/*container geral*/
+	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
 	.container-geral{
 		max-width: 1280px;
@@ -55,10 +53,13 @@
 		margin: 0 auto;
 		height:100vh;
 		position: relative;
+		overflow: hidden;
 	}
 
 	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 	/*definições de menu*/
+	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
 	.container-menu, .menu, .menu ul{ border-radius: 0 10px 0 0;}
 
 	.container-menu {
@@ -118,18 +119,24 @@
 	}
 	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 	/*Definições do container de conteúdo*/
+	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
 	.section-default {
 		height: 75%;
+		background: #ff69b482;
 	}
 	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 	/*Definições de contatos*/
+	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
 	.contatos {
-		background: #ff69b482;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		position: absolute;
+		left: 100%;
+		top: 15%;
+		opacity: 0;
 	}
 
 	.subcontainers-contatos {
@@ -158,16 +165,79 @@
 	}
 
 	@keyframes zoom {
-		0% {height: 100px;
-			  width: 100px;}
+		0%    {height: 100px;
+			   width: 100px;}
 		60%   {height: 110px;
-			  width: 110px;}
-		100%{height: 100px;
-			  width: 100px;}	  
+			   width: 110px;}
+		100%  {height: 100px;
+			   width: 100px;}	  
+	}
+	
+	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+	/*Definições da seção Sobre nós*/
+	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+	.sobre-empresa {
+		background: black;
+		left: 100%;
+		top: 15%;
+		opacity: 0;
 	}
 
 	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+	/*Definições da seção Nossas Bebês*/
+	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+	.nossas-bebes {
+		background: blue;
+		left: 100%;
+		top: 15%;
+		opacity: 0;
+	}
+
+
+	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+	/*Classes Animações para intercalar mostra de 
+				conteúdos das seções               */
+	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+	.animation-aparecer {
+		animation-name: aparecer;
+		animation-duration: 1s;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes aparecer{
+		from {position: absolute;
+			  left: 100%;
+			  top: 15%;
+			  opacity: 0;}
+		to   {position: absolute;
+			  left: 0;
+			  top: 15%;
+			  opacity: 1;}
+	}
+	
+		.animation-sumir {
+		animation-name: sumir;
+		animation-duration: 1s;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes sumir{
+		from   {position: absolute;
+			  	left: 0;
+			  	top: 15%;
+			  	opacity: 1;}
+		to 	   {position: absolute;
+			   left: 100%;
+			   top: 15%;
+			   opacity: 0;}
+	}
+	
+	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 	/*definições de rodapé*/
+	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
 	.rodape {
 		height: 10%;

@@ -18,12 +18,13 @@
 			</div>
 			<div class="menu col-10 row">
 				<ul>
-					<li>nossas bebês</li>
-					<li>quem somos nós</li>
-					<li>contato</li>
+					<li id="fotos">nossas bebês</li>
+					<li id="sobre">quem somos nós</li>
+					<li id="contact">contato</li>
 				</ul>
 			</div>
 		</nav>
+
 		<section class="contatos section-default col-12">
 			<div class="subcontainers-contatos zap-cor">
 				<a title="Whatsapp" href="https://api.whatsapp.com/send?phone=5561982252824" target="_blank">
@@ -110,6 +111,15 @@
  -->
 		
 		</section>
+
+		<section class="sobre-empresa section-default col-12">
+			
+		</section>
+		
+		<section class="nossas-bebes section-default col-12">
+			
+		</section>
+
 		<footer class="rodape row col-12">
 			<div class="contato-desenvolvedor">
 				<p>Desenvolvido por: Robson ALves | robim.net@gmail.com</p>
@@ -117,4 +127,6 @@
 		</footer>
 	</div>
 </body>
+<script type="text/javascript" src="js/jquery-3.3.1.slim.js"></script>
+<script type="text/javascript" src="js/acoes.js"></script>
 </html>

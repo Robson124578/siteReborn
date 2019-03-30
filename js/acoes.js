@@ -1,0 +1,38 @@
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//Função para transição de seções do site.
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+$(document).ready(function(){
+	$("#contact").click( function(){
+		$(".contatos").addClass("animation-aparecer");
+		$(".contatos").removeClass("animation-sumir")
+		$(".sobre-empresa").addClass("animation-sumir");
+		$(".sobre-empresa").removeClass("animation-aparecer");
+		$(".nossas-bebes").addClass("animation-sumir");
+		$(".nossas-bebes").removeClass("animation-aparecer");		
+	});
+
+
+	$("#sobre").click( function(){
+		$(".sobre-empresa").addClass("animation-aparecer")
+		$(".sobre-empresa").removeClass("animation-sumir")
+		$(".contatos").removeClass("animation-aparecer");
+		$(".contatos").addClass("animation-sumir");
+		$(".nossas-bebes").addClass("animation-sumir");
+		$(".nossas-bebes").removeClass("animation-aparecer");
+	});
+
+	$("#fotos").click(function(){
+		$(".nossas-bebes").addClass("animation-aparecer");
+		$(".nossas-bebes").removeClass("animation-sumir");
+		$(".contatos").addClass("animation-sumir");
+		$(".sobre-empresa").addClass("animation-sumir");
+		$(".contatos").removeClass("animation-aparecer");
+		$(".sobre-empresa").removeClass("animation-aparecer");
+
+	});
+
+});
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
