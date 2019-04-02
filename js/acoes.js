@@ -34,5 +34,7 @@ $(document).ready(function(){
 
 });
 
+
+$('.slider_one_big_picture').EasySlides();
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

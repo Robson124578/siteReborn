@@ -7,14 +7,16 @@
   	  <meta name="keywords" content="Reborn, bebe, boneca, menina">
   	  <meta name="author" content="Robson Alves">
   	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	  <link rel="stylesheet" type="text/css" href="carrossel/Versatile-Touch-Slider-Plugin-jQuery-EasySlides/jquery.easy_slides.css">
   	  <link rel="stylesheet" type="text/css" href="css/stylo.css">
+  	  <link rel="stylesheet" type="text/css" href="css/mediaQuerys.css">
 	  <link href="https://fonts.googleapis.com/css?family=Pacifico|Shadows+Into+Light|Baloo+Chettan" rel="stylesheet">
 </head>
 <body>
 	<div class="container-geral row">
 		<nav class="container-menu row col-12">
 			<div class="container-logo row col-2">
-				<a title="Maria Flor" href=""><img alt="Logo Maria Flor" class="img-logo" src="img/logo.jpg"></a>
+				<a title="Maria Flor" href=""><img alt="Logo Maria Flor" class="img-logo" src="img/img-fundo/logo.jpg"></a>
 			</div>
 			<div class="menu col-10 row">
 				<ul>
@@ -112,12 +114,31 @@
 		
 		</section>
 
-		<section class="sobre-empresa section-default col-12">
-			
+		<section class="sobre-empresa section-default col-12 row">
+			<div class="sobre-nos row col-10">
+				<h1>Quem somos Nós ?</h1>
+				<p>O ateliê reborn "Maria Flor", busca de forma artesanal retratar com todo amor e carinho a forma de seus bebês em sua realidade 	e pureza mostrando com qualidade e amor cada particularide de cada um que os tornam únicos como uma impressão digital.</p>
+			</div>
 		</section>
 		
-		<section class="nossas-bebes section-default col-12">
-			
+		<section class="nossas-bebes section-default col-12 row">
+			<div class="container-fotos-carroussel col-12 row">
+				<div class="fotos-carrossel col-6 row">
+					<div class="slider slider_one_big_picture">
+  						<div></div>
+  						<div></div>
+  						<div></div>
+  						<div></div>
+  						<div class="next_button">Próximo</div> 
+  						<div class="prev_button">Anterior</div> 
+  						<div class="nav_indicators"></div>
+ 					</div>
+				</div>
+			</div>
+			<div class="descricao">
+				<h2>Saskya</h2>
+				<p>lkjhdfçahdfçajhdfçajhdfçkajhdfçkjashdçfkjashdfkjashldfkjaHLÇKDJFHALKJDFHALKJDFHLAKJEDF.</p>
+			</div>
 		</section>
 
 		<footer class="rodape row col-12">
@@ -128,5 +149,6 @@
 	</div>
 </body>
 <script type="text/javascript" src="js/jquery-3.3.1.slim.js"></script>
+<script type="text/javascript" src="carrossel/Versatile-Touch-Slider-Plugin-jQuery-EasySlides/jquery.easy_slides.js"></script>
 <script type="text/javascript" src="js/acoes.js"></script>
 </html>
