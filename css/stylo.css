@@ -44,6 +44,13 @@
 	}
 
 	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+	/*Entrada do site*/
+	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+	.entrada-site {
+
+	}
+
+	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 	/*container geral*/
 	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
@@ -51,7 +58,7 @@
 		max-width: 1280px;
 		border-radius:10px;
 		margin: 0 auto;
-		height:100vh;
+		height:auto;
 		position: relative;
 		overflow: hidden;
 	}
@@ -63,8 +70,10 @@
 	.container-menu, .menu, .menu ul{ border-radius: 0 10px 0 0;}
 
 	.container-menu {
-		height: 15%;
+		height: 150px;
+		border: 1px solid red;
 		border-radius: 10px 10px 0 0;
+		margin-bottom: 20px;
 	}
 	.container-logo, .menu, a .img-logo { border-radius: 10px 0 0 0;}
 
@@ -194,7 +203,10 @@
 	/*Definições da seção Nossas Bebês*/
 	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
-	.nossas-bebes {}
+	.img-carrossel {
+		height: auto;
+		width: 100%;
+	}
 
 	.container-fotos-carroussel {
 		margin-top: 10px;
@@ -202,11 +214,15 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		border: 1px solid red;
 	}
 
 	.fotos-carrossel {
-
 		height: 100%;
+		max-height: 500px;
+		max-width: 700px;
+		border:1px solid red;
+		overflow: hidden;
 	}
 
 	.descricao {

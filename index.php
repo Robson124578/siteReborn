@@ -13,6 +13,7 @@
 	  <link href="https://fonts.googleapis.com/css?family=Pacifico|Shadows+Into+Light|Baloo+Chettan" rel="stylesheet">
 </head>
 <body>
+	<div class="entrada-site col-12">	
 	<div class="container-geral row">
 		<nav class="container-menu row col-12">
 			<div class="container-logo row col-2">
@@ -125,13 +126,13 @@
 			<div class="container-fotos-carroussel col-12 row">
 				<div class="fotos-carrossel col-6 row">
 					<div class="slider slider_one_big_picture">
-  						<div></div>
-  						<div></div>
-  						<div></div>
-  						<div></div>
+  						<div class="img-carrossel" ><img src="img/bb1.jpg"></div>
+  						<div class="img-carrossel" ><img src="img/bb2.jpg"></div>
+  						<div class="img-carrossel" ><img src="img/bb3.jpg"></div>
+  						<div class="img-carrossel" ><img src="img/bb4.jpg"></div>
   						<div class="next_button">Próximo</div> 
   						<div class="prev_button">Anterior</div> 
-  						<div class="nav_indicators"></div>
+  						<!-- <div class="nav_indicators"></div> -->
  					</div>
 				</div>
 			</div>

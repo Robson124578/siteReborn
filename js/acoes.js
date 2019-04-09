@@ -1,4 +1,16 @@
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//Configurações de Entrada do Site
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+$(document).ready( function(){
+	$(".entrada-site").click(function(){
+		$(this).slideUp();
+		// alert("teste");
+	});
+});
+
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //Função para transição de seções do site.
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
