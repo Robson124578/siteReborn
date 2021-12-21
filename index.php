@@ -12,17 +12,16 @@
   	  <link rel="stylesheet" type="text/css" href="css/mediaQuerys.css">
 	  <link href="https://fonts.googleapis.com/css?family=Pacifico|Shadows+Into+Light|Baloo+Chettan" rel="stylesheet">
 </head>
-<body>
-	<div class="entrada-site col-12">	
+<body>	
 	<div class="container-geral row">
 		<nav class="container-menu row col-12">
-			<div class="container-logo row col-2">
-				<a title="Maria Flor" href=""><img alt="Logo Maria Flor" class="img-logo" src="img/img-fundo/logo.jpg"></a>
+			<div class="container-logo row col-1">
+				<img alt="Logo Maria Flor" class="img-logo" src="img/img-fundo/logo.jpg">
 			</div>
-			<div class="menu col-10 row">
+			<div class="menu col-11 row">
 				<ul>
-					<li id="fotos">nossas bebês</li>
-					<li id="sobre">quem somos nós</li>
+					<li id="fotos">as bebês</li>
+					<li id="sobre">sobre nós</li>
 					<li id="contact">contato</li>
 				</ul>
 			</div>
@@ -81,7 +80,8 @@
 					C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156
 					c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722
 					c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z"/>
-	
+					
+
 					<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.57" x2="275.517" y2="549.72" gradientTransform="matrix(1 0 0 -1 0 554)">
 					<stop  offset="0" style="stop-color:#E09B3D"/>
 					<stop  offset="0.3" style="stop-color:#C74C4D"/>

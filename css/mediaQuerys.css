@@ -3,31 +3,22 @@
 	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
 	@media screen and (max-width: 920px) {
-		[class*="col-"]{
-			width: 100%;
-			float: none;
-		}
 
 	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 	/*definições de Menú*/
 	/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/	
 
+		.container-geral{
+			width: 100%;
+		}
+
 		.container-menu, .menu, .menu ul{border-radius: 0;}
 
-		.container-menu {
-			height: auto; 
-			background: #fff;
-}
-		
 		.container-logo{
-			height: auto;
-			max-width: 50px;
-			border-radius: 0 0 0 0;
+			width: 16.66%;
 		}
 
-		.menu ul {
-			/*display: block;*/
-		}
+		.menu{width: 83.333333333%;}
 
 		.menu ul li {
 			width: 100%;
@@ -61,8 +52,17 @@
 /*Definições de contatos*/
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
-	.contatos {
-		flex-direction: column;
+	.subcontainers-contatos{
+		width: 25%;
+		height: 25%;
+	}
+
+}
+
+@media screen and (max-width: 455px) {
+
+	.menu ul li {
+		font-size: 0.8em;
 	}
 
 }
