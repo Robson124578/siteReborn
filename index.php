@@ -5,7 +5,7 @@
 	  <meta charset="UTF-8">
   	  <meta name="description" content="Site de Bebês Reborn">
   	  <meta name="keywords" content="Reborn, bebe, boneca, menina">
-  	  <meta name="author" content="Robson Alves">
+  	  <meta name="author" content="Robson Alves Moreira">
   	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   	  <link rel="stylesheet" type="text/css" href="carrossel/Versatile-Touch-Slider-Plugin-jQuery-EasySlides/jquery.easy_slides.css">
   	  <link rel="stylesheet" type="text/css" href="css/stylo.css">
